@@ -31,6 +31,7 @@ public class User {
 
 	@Override
 	public String toString() {
+		// I am doing this
 		return "User [name=" + name + ", email=" + email + "]";
 	}
 	
