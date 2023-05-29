@@ -21,6 +21,13 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+	public User(String name, String email) {
+		super();
+		this.name = name;
+		this.email = email;
+	}
+	
 	
 
 }
