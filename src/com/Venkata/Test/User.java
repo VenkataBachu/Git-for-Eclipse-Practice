@@ -29,6 +29,11 @@ public class User {
 	}
 	
 
+	public User(String email) {
+		super();
+		this.email = email;
+	}
+
 	@Override
 	public String toString() {
 		// I am doing this
